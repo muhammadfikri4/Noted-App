@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 20px;
+}
+
+.form-tambah-catatan {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.form-tambah-catatan input {
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+.form-tambah-catatan input:focus {
+  outline: none;
+  border: 1px solid rgb(0, 217, 255);
+}
+.form-tambah-catatan textarea:focus {
+  outline: none;
+  border: 1px solid #00d9ff;
+}
+
+.form-tambah-catatan textarea {
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.container-item {
+  border: 1px solid black;
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  padding: 0 10px;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.head p {
+  font-size: 14px;
+  opacity: 50%;
+  margin-top: 5px;
+}
+
+.body {
+  padding:  10px;
+  flex-grow: 1  ;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.foot .hapus {
+  background-color: #ff0000;
+  width: 50%;
+  text-align: center;
+  padding: 8px;
+  border-radius: 0 0 0 10px;
+  color: white;
+  cursor: pointer;
+}
+.foot .arsip {
+  background-color: #00cf3e;
+  width: 50%;
+  text-align: center;
+  padding: 8px;
+  border-radius: 0 0 10px 0;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-add {
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #00d9ff;
+  cursor: pointer;
+}
+
+i {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.searchData {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.searchData input {
+  padding: 10px;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.searchData input:focus {
+  outline: none;
+  border: 1px solid rgb(0, 217, 255);
+}
+.searchData button {
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #008cff;
+}
