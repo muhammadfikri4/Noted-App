@@ -134,3 +134,9 @@ i {
   font-weight: bold;
   background-color: #008cff;
 }
+
+@media screen and (max-width: 400px) {
+ .container {
+    justify-content: center;
+  }
+}
